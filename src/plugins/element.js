@@ -25,7 +25,12 @@ import {
   Pagination,
   Dialog,
 
-  MessageBox
+  MessageBox,
+  Tag,
+  Tree,
+
+  Select,
+  Option
 } from 'element-ui'
 
 Vue.use(Button)
@@ -66,3 +71,9 @@ Vue.use(Dialog)
 // 采用上面的方式会在刷新的时候出现一次提示
 Vue.component(MessageBox.name, MessageBox)
 Vue.prototype.$confirm = MessageBox.confirm
+
+Vue.use(Tag)
+Vue.use(Tree)
+
+Vue.use(Select)
+Vue.use(Option)
