@@ -95,7 +95,7 @@
 
     <!-- 修改用户的对话框 -->
     <el-dialog
-      title="提示"
+      title="修改用户"
       :visible.sync="editDialogVisible"
       width="50%"
       @close="editDialogClosed"
